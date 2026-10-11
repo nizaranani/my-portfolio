@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nizar Anani — Développeur Full Stack (étudiant)</title>
+    <meta name="description" content="Portfolio de Nizar Anani, étudiant en développement digital Full Stack à l'OFPPT, Marrakech.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="logo">NIZAR<span>.</span>ANANI</a>
+            <div class="nav-links">
+                <a href="#about" data-i18n="nav_about">À propos</a>
+                <a href="#experience" data-i18n="nav_exp">Expérience</a>
+                <a href="#skills" data-i18n="nav_skills">Compétences</a>
+                <a href="#contact" data-i18n="nav_contact">Contact</a>
+                <div class="lang-switch" role="group" aria-label="Language">
+                    <button type="button" data-lang="fr">FR</button>
+                    <button type="button" data-lang="en">EN</button>
+                    <button type="button" data-lang="ar">AR</button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="container">
+            <div>
+                <p class="eyebrow" data-i18n="eyebrow">Étudiant Full Stack · Marrakech, Maroc</p>
+                <h1 data-i18n="name">Nizar Anani</h1>
+                <p data-i18n="hero_text">Étudiant en 2<sup>e</sup> année de Développement Digital (option Full Stack) à l'OFPPT. Je développe mes compétences en HTML, CSS, JavaScript, React, PHP, MySQL et Python.</p>
+                <div class="buttons">
+                    <a class="btn primary" href="https://www.linkedin.com/in/nizar-anani-a13baa392" target="_blank" rel="noopener">LinkedIn</a>
+                    <a class="btn" href="https://github.com/nizaranani" target="_blank" rel="noopener">GitHub</a>
+                    <a class="btn" href="mailto:nizaranani2@gmail.com" data-i18n="btn_email">Email</a>
+                </div>
+            </div>
+            <div class="photo-wrap">
+                <img class="photo" src="profile.jpg" alt="Nizar Anani" width="320" height="320">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <div class="container">
+                <h2 data-i18n="about_title">À propos</h2>
+                <div class="card">
+                    <p data-i18n="about_p1">Je suis ambitieux et passionné par l'apprentissage. Je crois que le développement continu est la clé du succès. J'ai l'esprit d'initiative et je cherche des opportunités pour acquérir de nouvelles compétences dans un environnement stimulant.</p>
+                    <p data-i18n="about_p2">Mon objectif : suivre mes études en France.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <h2 data-i18n="exp_title">Expérience &amp; Formation</h2>
+                <div class="grid-2">
+                    <div class="card">
+                        <h3 data-i18n="job_title">Stagiaire développeur</h3>
+                        <p class="meta" data-i18n="job_meta">Wilaya de Marrakech · 16 – 23 septembre 2026</p>
+                        <ul>
+                            <li data-i18n="job_b1">Stage en développement au sein de la Wilaya de Marrakech.</li>
+                            <li data-i18n="job_b2">Manipulation de données sur le site intranet, dans le contexte des élections législatives 2026.</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3 data-i18n="proj_title">Plateforme étudiant–administration</h3>
+                        <p class="meta">OFPPT · 2025</p>
+                        <ul>
+                            <li data-i18n="proj_b1">Développement d'une plateforme de communication entre étudiants et administration.</li>
+                            <li data-i18n="proj_b2">Création de contenu pédagogique interactif.</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3 data-i18n="edu_title">Développement Digital — option Full Stack</h3>
+                        <p class="meta">OFPPT · ITA SYBA · 2025/2026</p>
+                        <p data-i18n="edu_text">Formation en cours (2<sup>e</sup> année).</p>
+                    </div>
+                    <div class="card">
+                        <h3 data-i18n="langs_title">Langues</h3>
+                        <ul>
+                            <li data-i18n="l_ar">Arabe — courant</li>
+                            <li data-i18n="l_fr">Français — bon niveau</li>
+                            <li data-i18n="l_en">Anglais — notions</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2 data-i18n="skills_title">Compétences</h2>
+                <p class="note" data-i18n="skills_note">Technologies que j'apprends et que j'utilise dans mes projets de formation.</p>
+                <div class="grid-2">
+                    <div class="card skill-group">
+                        <h3>Front-end</h3>
+                        <div class="tags"><span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">React</span></div>
+                    </div>
+                    <div class="card skill-group">
+                        <h3>Back-end</h3>
+                        <div class="tags"><span class="tag">PHP</span><span class="tag">Python</span></div>
+                    </div>
+                    <div class="card skill-group">
+                        <h3 data-i18n="db_title">Bases de données</h3>
+                        <div class="tags"><span class="tag">MySQL</span><span class="tag">SQL</span><span class="tag" data-i18n="tag_data">Manipulation de données</span></div>
+                    </div>
+                    <div class="card skill-group">
+                        <h3 data-i18n="tools_title">Outils</h3>
+                        <div class="tags"><span class="tag">Git</span><span class="tag">GitHub</span><span class="tag">VS Code</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2 data-i18n="contact_title">Contact</h2>
+                <div class="contact-list">
+                    <a class="btn primary" href="https://www.linkedin.com/in/nizar-anani-a13baa392" target="_blank" rel="noopener">LinkedIn</a>
+                    <a class="btn" href="https://github.com/nizaranani" target="_blank" rel="noopener">GitHub</a>
+                    <a class="btn" href="mailto:nizaranani2@gmail.com" data-i18n="btn_email">Email</a>
+                </div>
+                <p class="note email-line" style="margin-top:16px">nizaranani2@gmail.com</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container" data-i18n="footer">&copy; 2026 Nizar Anani</div>
+    </footer>
+</body>
+
+</html>
