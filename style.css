@@ -182,6 +182,20 @@ footer {
     .photo-wrap { order: -1; }
 }
 
+/* ===== CV button ===== */
+.btn.cv {
+    border-color: var(--accent);
+    color: var(--accent);
+    background: rgba(79, 156, 255, 0.08);
+}
+
+.btn.cv:hover {
+    background: rgba(79, 156, 255, 0.18);
+    box-shadow: 0 0 20px rgba(79, 156, 255, 0.25);
+}
+
+.btn.cv svg { flex-shrink: 0; }
+
 /* ===== Language switcher ===== */
 .lang-switch { display: flex; gap: 6px; }
 
