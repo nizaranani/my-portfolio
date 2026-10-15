@@ -29,6 +29,8 @@ const T = {
         db_title: "Bases de données", tag_data: "Manipulation de données",
         tools_title: "Outils",
         contact_title: "Contact",
+        btn_email: "Email",
+        btn_cv: "Télécharger mon CV",
         footer: "&copy; 2026 Nizar Anani"
     },
     en: {
@@ -62,6 +64,8 @@ const T = {
         db_title: "Databases", tag_data: "Data manipulation",
         tools_title: "Tools",
         contact_title: "Contact",
+        btn_email: "Email",
+        btn_cv: "Download my CV",
         footer: "&copy; 2026 Nizar Anani"
     },
     ar: {
@@ -95,6 +99,8 @@ const T = {
         db_title: "قواعد البيانات", tag_data: "معالجة البيانات",
         tools_title: "الأدوات",
         contact_title: "التواصل",
+        btn_email: "البريد الإلكتروني",
+        btn_cv: "تحميل السيرة الذاتية",
         footer: "&copy; 2026 نزار عناني"
     }
 };
